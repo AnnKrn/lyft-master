@@ -1,0 +1,352 @@
+/*
+ * Estilos de tu proyecto
+ */
+/*transition para transparecia*/
+/*estilo encabezado transparente*/
+body  {
+  margin: 0 auto;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  border: 1px solid;
+  height: 115px;
+  width: 100%;
+  position: fixed;
+}
+
+header > nav {
+  height: 25px;
+  margin: 0;
+  padding-right: 15px;
+  padding-top: 50px;
+  width: 300px;
+}
+
+header > nav > ul > li {
+  display: inline;
+  text-align: center;
+  padding: 10px 19px;
+}
+
+/*tamaño de logo en cabezara*/
+header > nav > ul > li > a {
+  font-size: 20px;
+}
+
+header > nav > ul {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+}
+
+/*tamaño de logo en cabezara*/
+header > img {
+  height: 49px;
+  padding: 33px 60px;
+  width: 66px;
+}
+
+/*estilo y tamaño del boton*/
+header > div > button {
+  background-color: inherit;
+  border: 1px solid white;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+  height: 46px;
+  margin-top: 36px;
+  margin-right: 180px;
+  width: 96px;
+}
+
+/*hoover encabezado*/
+header > nav > ul > li > a:hover,
+header > div > button:hover {
+  color: #FF00BF;
+}
+
+
+/*primera seccion*/
+/*logo de fondo*/
+#section_1 > #logo {
+  background-image: url(../assets/images/hero.gif);
+  background-size: cover;
+  height: 640px;
+  width: 100%;
+}
+
+/*formulario inicial*/
+#section_1 > #sign_form {
+  background-color: #fff;
+  height: 430px;
+  margin-top: 208px;
+  width: 43%;
+}
+
+#section_1 > #sign_form > h1 {
+  font-weight: bolder;
+  font-size: 40px;
+  margin: 0;
+  padding-top: 65px;
+}
+
+#section_1 > #sign_form > h6 {
+  font-weight: lighter;
+  font-size: 16px;
+  margin: 0;
+  line-height: 30px;
+}
+
+/*telefono*/
+#section_1 > #sign_form > form > div > label {
+  display: inline-block;
+  margin-left: 65px;
+  text-align: left;
+  width: 80%;
+}
+
+#section_1 > #sign_form > form > div > input {
+  border: none;
+  border-bottom: 1px solid black;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font: 18px sans-serif;
+  margin: 0 auto;
+  margin-left: 65px;
+  width: 80%;
+}
+
+/*botones de formulario*/
+
+#section_1 > #sign_form > form > #button_driver > button {
+  background-color: #FF00BF;
+  border-color: #FF00BF;
+  border-radius: 10px;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  height: 50px;
+  width: 194px;
+}
+
+#section_1 > #sign_form > form > #button_sign_up > button {
+  background-color: none;
+  border-color: #FFF;
+  border-radius: 10px;
+  display: inline-block;
+  color: #352384;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+  height: 50px;
+  width: 194px;
+}
+
+#section_1 > #sign_form > form > #button_sign_up, #button_driver {
+  padding-top: 10px;
+}
+
+/*texto informativo*/
+#section_1 > #sign_form > p, a {
+  font-weight: lighter;
+  font-size: 10px;
+  margin: 0;
+}
+
+#section_1 > #sign_form > p > a {
+  color: #FF00BF;
+  text-decoration: none;
+}
+
+/*segunda seccion*/
+/*background degradado*/
+#section_2 {
+  background-image: linear-gradient(#76278F, #2B1E66);
+  height: 650px;
+  width: 100%;
+}
+ /*interlineado de texto y centrado*/
+
+#section_2 > div {
+  margin-left: 120px;
+  padding-top: 1px;
+  width: 41%;
+}
+
+#section_2 > div > div {
+  margin: 70px 0px;
+}
+
+#section_2 > div > div > p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+#section_2 > div > div > h1 {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/*tamaño imagen phone*/
+#section_2 > .phone-image {
+  height: 540px;
+  padding-right: 120px;
+  padding-top: 60px;
+  width: 500px;
+}
+
+/*tercera seccion videos*/
+/*tamaño de cada de texto*/
+#section_3 > div {
+  margin: 0 24px;
+  height: 505px;
+  text-align: justify;
+  width: 400px;
+}
+
+/*porque acomoa todos los h y p, si estoy diciendo que solo en section 3*/
+#section_3 > div > p {
+  padding: 10px 45px;
+}
+
+#section_3 > div > h1, h6 {
+  margin: 0;
+  padding: 0px 45px;
+}
+
+#section_3 > div > h6 {
+  margin-top: 50px;
+}
+/*footer*/
+/*fondo y tamaño*/
+#foot {
+  background-color: #333447;
+  height: 650px;
+  width: 100%;
+}
+
+/*menus posi*/
+#foot > div {
+  margin: 0;
+  padding-top: 90px;
+  width: 100%;
+}
+
+#foot > div > div {
+  display: inline-block;
+  margin: 0;
+  padding-left: 100px;
+  width: 15%;
+}
+
+#foot > div > div > nav > ul > li {
+  list-style: none;
+  padding: 15px 0px;
+ }
+
+#foot > div > div > nav > ul > li > a:hover{
+  color: #FF00BF;
+  text-decoration: underline;
+}
+
+/*tamaño letra menus footer*/
+#foot > div > div > nav > ul > li > a {
+  font-size: 15px;
+}
+
+#foot > div > div > nav > ul {
+  margin: 0 auto;
+  padding: 0;
+ }
+
+/*tamaño de logos*/
+#foot > div > div > a > img {
+  height: 50px;
+  padding-top: 30px;
+  width: 150px;
+}
+
+#foot > div > #stores_images {
+  height: 200px;
+  width: 20%;
+}
+ /*pie y liena*/
+
+#foot > p > a {
+  text-decoration: none;
+  font-size: 15px;
+}
+
+#foot > p {
+  text-align: center;
+}
+
+#foot >  hr {
+
+  border: 1px solid white;
+  width: 50%;
+}
+
+/*alineacion y estilo de iconos social media*/
+#foot > #iconos_social_media {
+  margin-top: 100px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#foot > #iconos_social_media > a {
+  padding: 0 40px;
+}
+
+#foot > #iconos_social_media > a > i {
+  color: white;
+  text-align: center;
+}
+
+/*texto a mayusculas*/
+.text-uppercase {
+ text-transform: uppercase;
+}
+
+/*letra negra*/
+.black-letter {
+  color: black;
+}
+
+/*letra blanca*/
+.white-letter {
+  color: white;
+}
+
+/*flotar elementos*/
+.float-right {
+ float: right;
+}
+
+.float-left {
+ float: left;
+}
+
+.clear-float {
+ clear: both;
+}
+
+/*interlineado cero*/
+.interline-5 {
+  line-height: 5px;
+}
+
+/*alineacion de texto formulario*/
+.text-aling-form {
+  padding-left: 65px;
+}
+
+/*color de texto formulario*/
+.text-color-form {
+  color: #352384;
+}
